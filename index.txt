@@ -14,7 +14,7 @@ Sep 23 and 25, 2013.
 Day              Schedule
 ===============  =============================================================
 Monday 9/23      * 1pm: Getting started: logging in
-       		 * Running BLAST
+       		 * :doc:`blast`
 		 * 2pm: `How computers work <_static/lecture-how-computers-work.pptx.pdf>`__ (lecture)
 		 * 2:30pm: **break**
 		 * 3pm: shell introduction

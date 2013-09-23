@@ -1,0 +1,123 @@
+Basic EC2, command line, and BLAST
+==================================
+
+Follow the instructions in :doc:`amazon/log-in-with-ssh-mac` or :doc:`amazon/log-in-with-ssh-win`.  @@
+
+You should now be at a '#' prompt.
+
+Create a directory for yourself
+-------------------------------
+
+Type::
+
+   cd /mnt
+
+and then type::
+
+   mkdir <NetID>
+
+but replace ``<NetID>`` with your MSU NetID (or some distinguishing lowercase
+name).
+
+Then type::
+
+   cd <NetID>
+ 
+and ::
+
+   pwd
+
+It should say '/mnt/<NetID>'.  Here, you've created your own folder and
+made it your current "working directory", which means it's where UNIX
+will look for files and programs by default.
+
+Download some data
+------------------
+
+Download the E. coli MG1655 protein data set::
+
+   curl -O http://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/Escherichia_coli_K_12_substr__MG1655_uid57779/NC_000913.faa
+
+This grabs that URL and saves the contents of 'NC_000913.faa' to the local
+disk.
+
+Next, download a Salmonella protein data set::
+
+   curl -O http://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/Salmonella_enterica_Serovar_Typhimurium_var__5__CFSAN001921_uid212972/NC_021814.faa
+
+Likewise, this creates a local copy of NC_021814.faa.
+
+Let's take a quick look at these files::
+
+   head NC_000913.faa
+   head NC_021814.faa
+
+These files contain a bunch of protein data from two different genomes.
+What can we do with it??
+
+Format for BLAST and run BLAST
+------------------------------
+
+Format the E. coli data set for BLAST and run BLAST of the Salmonella proteins
+against the MG1655 protein set::
+
+   formatdb -i NC_000913.faa -o T -p T
+   blastall -i NC_021814.faa -d NC_000913.faa -p blastp -e 1e-12 -o salm.x.ecoli
+
+Look at the first 50 lines of the output file::
+
+   head -50 salm.x.ecoli
+
+good, BLAST output!  But if you type 'wc salm.x.ecoli' you'll see that
+this file has 462,000 lines in it -- surely you don't want to look at
+each one?
+
+Let's convert 'em to a CSV file, instead, that can be opened in Excel::
+
+   python /usr/local/share/ngs-scripts/blast/blast-to-csv-with-names.py NC_021814.faa NC_000913.faa salm.x.ecoli > salm.x.ecoli.csv
+
+Take a look at this file ::
+
+   head salm.x.ecoli.csv
+
+But ... this file is on our remote computer. How do we get this file onto
+our *local* computer??  There are lots of ways of doing this; for now,
+I've set up a Web server on your Amazon computer, so you can just type::
+
+   ln -fs $PWD /var/www
+
+and go to your computer name in your browser.  You should see a bunch of
+files, including 'salm.x.ecoli.csv'.
+
+Reciprocal BLAST calculation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now, let's do the reciprocal BLAST, too::
+
+   formatdb -i NC_021814.faa -o T -p T
+   blastall -i NC_000913.faa -d NC_021814.faa -p blastp -e 1e-12 -o ecoli.x.salm
+
+Extract reciprocal best hit::
+
+   python /usr/local/share/ngs-scripts/blast/blast-to-ortho-csv.py NC_021814.faa NC_000913.faa salm.x.ecoli ecoli.x.salm > ortho.csv
+
+This generates a file 'ortho.csv', containing the ortholog assignments and
+their annotations.  Now download *that* to your local computer and take
+a look at it in Excel.
+
+Time for reflection
+-------------------
+
+Get together with those sitting around you and come up with three uses
+for this kind of "batch BLAST" in your collective research, whatever
+it may be.  We'll make a list!
+
+A few post-tutorial links
+-------------------------
+
+Explore the NCBI bacterial genome site here: http://ftp.ncbi.nlm.nih.gov/genomes/Bacteria
+
+- '.faa' files are protein data sets;
+- '.fna' files are genomic DNA;
+- the rest are annotation files of various kinds.
+
