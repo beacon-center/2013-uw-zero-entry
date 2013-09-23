@@ -1,0 +1,12 @@
+Using the IPython Notebook for graphing and data processing
+===========================================================
+
+Go find `your machine name <https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidHhxaTlreUlTeVRJVVZ2LUpDMmdOTlE#gid=0>`__, and then go to::
+
+   https://<machine-name>
+
+You'll need to disable your security settings potentially (different for every browser... sorry).
+
+Then enter the password 'beacon' and you should be in!
+
+We're going to start with 'graph-blast-bitscore'.

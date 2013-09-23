@@ -25,7 +25,7 @@ Monday 9/23      * 1pm: Getting started: logging in
 		 * 2:30pm: **break**
 		 * 3pm: `iCER/HPC <http://icer.msu.edu>`__; shell introduction
 		 * 3:45pm: `pipelines and automation <_static/lecture-pipelines.pptx.pdf>`__ (lecture)
-		 * 4:15pm: back to tutorial; graphing.
+		 * 4:15pm: :doc:`ipython-notebook`
 		 * 5pm: **end**
 Wednesday 9/25   * 1pm: More stuff.
 	  	 * 3pm: Presentation on background, bioinformatics, etc.

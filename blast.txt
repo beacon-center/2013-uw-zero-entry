@@ -105,6 +105,10 @@ go to::
 Reciprocal BLAST calculation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Be sure to start in "your" directory::
+
+    cd /mnt/<NETID>
+
 Now, let's do the reciprocal BLAST, too::
 
    formatdb -i NC_021814.faa -o T -p T
