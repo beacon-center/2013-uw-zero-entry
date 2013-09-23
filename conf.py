@@ -44,7 +44,7 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'2013-caltechworkshop'
+project = u'2013-msu-zero-entry'
 copyright = u'2013, C. Titus Brown and Chris Welcher'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -176,9 +176,9 @@ htmlhelp_basename = 'labibidoc'
 
 html_context = {
    "google_analytics_id" : 'UA-36028965-1',
-   "disqus_shortname" : '2013-caltech-cemi',
-   "github_base_account" : 'ged-lab',
-   "github_project" : '2013-caltech-workshop',
+   "disqus_shortname" : '2013-msu-zero-entry',
+   "github_base_account" : '',
+   "github_project" : '',
 }
 
 
