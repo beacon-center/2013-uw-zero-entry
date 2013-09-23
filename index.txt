@@ -10,6 +10,8 @@ Sep 23 and 25, 2013.
 
 1425 BPS, Michigan State University.
 
+`Etherpad link <https://etherpad.mozilla.org/bxYhBFc2dk>`__
+
 ===============  =============================================================
 Day              Schedule
 ===============  =============================================================
