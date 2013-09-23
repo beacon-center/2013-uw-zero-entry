@@ -12,6 +12,10 @@ Sep 23 and 25, 2013.
 
 `Etherpad link <https://etherpad.mozilla.org/bxYhBFc2dk>`__
 
+Lecturers: `Titus Brown <mailto:ctb@msu.edu>`__; `Tracy Teal <mailto:tkteal@msu.edu>`__;
+
+TAs: Likit Preeyanon; Elijah Lowe.
+
 ===============  =============================================================
 Day              Schedule
 ===============  =============================================================
@@ -19,7 +23,7 @@ Monday 9/23      * 1pm: Getting started: logging in
        		 * :doc:`blast`
 		 * 2pm: `How computers work <_static/lecture-how-computers-work.pptx.pdf>`__ (lecture)
 		 * 2:30pm: **break**
-		 * 3pm: shell introduction
+		 * 3pm: `iCER/HPC <http://icer.msu.edu>`__; shell introduction
 		 * 3:45pm: `pipelines and automation <_static/lecture-pipelines.pptx.pdf>`__ (lecture)
 		 * 4:15pm: back to tutorial; graphing.
 		 * 5pm: **end**
