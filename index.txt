@@ -28,7 +28,7 @@ Monday 9/23      * 1pm: Getting started: logging in
 		 * 4:15pm: :doc:`ipython-notebook`
 		 * 5pm: **end**
 Wednesday 9/25   * 1pm: :doc:`monte-carlo`
-	  	 * 3pm: Presentation on background, bioinformatics, etc.
+	  	 * 3pm: `Presentation on background, bioinformatics, etc. <_static/cse-801-lecture1-welcome.pptx.pdf>`__
 		 * 5pm: **end**.  Also see :doc:`more-resources`
 ===============  =============================================================
 
