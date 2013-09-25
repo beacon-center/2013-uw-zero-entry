@@ -8,18 +8,18 @@ Move it onto your desktop.
 
 Next, start Terminal (in Applications... Utilities...) and type::
 
-  chmod og-rwx ~/Desktop/amazon.pem
+  chmod og-rwx ~/Desktop/msu-bootcamp
 
 to set the permissions on the private key file to "closed to all evildoers".
 
 Then type::
 
-  ssh -i ~/Desktop/amazon.pem root@ec2-???-???-???-???.compute-1.amazonaws.com
+  ssh -i ~/Desktop/msu-bootcamp root@ec2-???-???-???-???.compute-1.amazonaws.com
 
 
 Here, you're logging in as user 'root' to the machine
 'ec2-174-129-122-189.compute-1.amazonaws.com' using the authentication
-key located in 'amazon.pem' on your Desktop.
+key located in 'msu-bootcamp' on your Desktop.
 
 
 Note, you have to replace the stuff after the '@' sign with the name
