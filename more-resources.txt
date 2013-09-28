@@ -6,7 +6,7 @@ For bioinformatics, generally, see `BioStars <http://biostars.org>`__.
 For sequencing information, see `SEQanswers <http://seqanswers.com>`__.
 
 For (lots!) more tutorials from the `GED lab <http://ged.msu.edu/>`__, see the
-`ANGUS resource <http://ged.msu.edu/angus/>`__.
+`ANGUS resource <http://ged.msu.edu/angus/>`__.  You might also be interested in `the khmer protocols for mRNAseq and metagenome assembly <https://khmer-protocols.readthedocs.org/>`__.
 
 For more general computational science help, see `Software Carpentry
 <http://software-carpentry.org>`__, especially the `Software Carpentry

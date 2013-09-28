@@ -18,6 +18,7 @@ echo 'index-file.names += ( "index.cgi" ) ' >> 10-cgi.conf
 /etc/init.d/lighttpd restart
 
 pip install -U ipython
+pip install -U ipython
 pip install -U pyzmq
 
 cd /usr/local/notebooks
