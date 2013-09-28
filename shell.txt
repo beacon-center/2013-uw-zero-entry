@@ -1,0 +1,14 @@
+Shell introduction
+------------------
+
+Notes here:
+
+    https://github.com/tracykteal/shell
+
+(scroll down).
+
+To get the shell materials, ::
+
+   cd /mnt/<NetID>
+
+   git clone https://github.com/tracykteal/shell.git

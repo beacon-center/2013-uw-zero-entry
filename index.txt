@@ -21,7 +21,7 @@ Saturday 9/28    * 12:30: Getting started: logging in
        		 * :doc:`blast`
 		 * 2pm: `How computers work <_static/lecture-how-computers-work.pptx.pdf>`__ (lecture)
 		 * 2:30pm: **break**
-		 * 3pm: shell introduction
+		 * 3pm: :doc:`shell`
 		 * 3:45pm: `pipelines and automation <_static/lecture-pipelines.pptx.pdf>`__ (lecture)
 		 * 4:15pm: :doc:`ipython-notebook`
 		 * 5pm: **end**

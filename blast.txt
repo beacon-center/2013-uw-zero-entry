@@ -7,9 +7,9 @@ Follow the instructions in :doc:`amazon/log-in-with-ssh-mac` or :doc:`amazon/log
 
 Two points:
 
-Your machine name is available `here <https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidHhxaTlreUlTeVRJVVZ2LUpDMmdOTlE#gid=0>`__.
+Your machine name is available `here <https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidEVtNURjLU9fSHExbzhIdGhIMl9uc0E#gid=0>`__
 
-Download a keyfile here: http://athyra.idyll.org/~t/msu-bootcamp.pem
+Download a keyfile here: http://athyra.idyll.org/~t/uw-bootcamp.pem
 
 ----
 
