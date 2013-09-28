@@ -3,7 +3,7 @@ Shell introduction
 
 Notes here:
 
-    https://github.com/tracykteal/shell
+    https://github.com/JorySchossau/shell
 
 (scroll down).
 
@@ -11,4 +11,4 @@ To get the shell materials, ::
 
    cd /mnt/<NetID>
 
-   git clone https://github.com/tracykteal/shell.git
+   git clone https://github.com/JorySchossau/shell.git
