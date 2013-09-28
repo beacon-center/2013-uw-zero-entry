@@ -3,18 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-2013 MSU Zero-Entry Workshop: Computational Science for Biologists
-==================================================================
+2013 UW Zero-Entry Workshop: Computational Science for Biologists
+=================================================================
 
-Sep 23 and 25, 2013.
+Sep 28 and 29, 2013.
 
-1425 BPS, Michigan State University.
+Hitchcock Hall 320, University of Washington at Seatle.
 
-`Etherpad link <https://etherpad.mozilla.org/bxYhBFc2dk>`__
+.. `Etherpad link <https://etherpad.mozilla.org/bxYhBFc2dk>`__
 
-Lecturers: `Titus Brown <mailto:ctb@msu.edu>`__; `Tracy Teal <mailto:tkteal@msu.edu>`__; Jory Schossau.
-
-TAs: Likit Preeyanon; Elijah Lowe.
+Lecturers: `Titus Brown <mailto:ctb@msu.edu>`__; Jory Schossau.
 
 ===============  =============================================================
 Day              Schedule

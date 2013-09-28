@@ -44,8 +44,8 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'2013-msu-zero-entry'
-copyright = u'2013, C. Titus Brown and Chris Welcher'
+project = u'2013-uw-zero-entry'
+copyright = u'2013, C. Titus Brown'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -175,8 +175,8 @@ htmlhelp_basename = 'labibidoc'
 # Various settings to pass to templates:
 
 html_context = {
-   "google_analytics_id" : 'UA-16853172-3',
-   "disqus_shortname" : '2013-msu-zero-entry',
+   "google_analytics_id" : '',
+   "disqus_shortname" : '',
    "github_base_account" : '',
    "github_project" : '',
 }
