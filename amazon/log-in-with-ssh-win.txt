@@ -14,8 +14,12 @@ Open puttygen; select "Load".
 .. image:: images/win-puttygen.png
    :width: 50%
 
-Find and load your '.pem' file; it's probably in your Downloads
-folder.  Note, you have to select 'All files' on the bottom.
+Find and load the '.pem' file you downloaded from:
+
+     http://athyra.idyll.org/~t/uw-bootcamp.pem 
+
+it might be in your Downloads folder.  Note, you have to select 'All
+files' on the bottom.
 
 .. image:: images/win-puttygen-2.png
    :width: 50%

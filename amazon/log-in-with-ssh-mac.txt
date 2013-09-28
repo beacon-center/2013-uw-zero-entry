@@ -2,24 +2,26 @@
 Logging into your new instance "in the cloud" (Mac version)
 ===========================================================
 
-First, find your private key file; it's the .pem file you downloaded
-from the previous Web page.  It should be in your Downloads folder.
-Move it onto your desktop.
+First, download a security key, in a .pem file, from:
+
+       http://athyra.idyll.org/~t/uw-bootcamp.pem
+
+Save it to your Desktop (or download it and then move it to your desktop).
 
 Next, start Terminal (in Applications... Utilities...) and type::
 
-  chmod og-rwx ~/Desktop/msu-bootcamp
+  chmod og-rwx ~/Desktop/uw-bootcamp.pem
 
 to set the permissions on the private key file to "closed to all evildoers".
 
 Then type::
 
-  ssh -i ~/Desktop/msu-bootcamp root@ec2-???-???-???-???.compute-1.amazonaws.com
+  ssh -i ~/Desktop/uw-bootcamp.pem root@ec2-???-???-???-???.compute-1.amazonaws.com
 
 
 Here, you're logging in as user 'root' to the machine
 'ec2-174-129-122-189.compute-1.amazonaws.com' using the authentication
-key located in 'msu-bootcamp' on your Desktop.
+key located in 'uw-bootcamp.pem' on your Desktop.
 
 
 Note, you have to replace the stuff after the '@' sign with the name
