@@ -32,6 +32,13 @@ Sunday 9/29
 		 * 5pm: **end**.  Also see :doc:`more-resources`
 ===============  =============================================================
 
+Other mentioned links:
+
+* `Amazon Web services instance types <http://aws.amazon.com/ec2/instance-types/>`__
+* `Amazon Web services instance costs <http://aws.amazon.com/ec2/pricing/>`__
+* `IPython Notebook Gallery <https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks>`__
+* `Matplotlib gallery <http://matplotlib.org/gallery.html>`__
+
 For many more resources on these topics, check out the course website
 for the `GED's ANGUS course <http://ged.msu.edu/angus/>`__ which is
 run at MSU every summer.

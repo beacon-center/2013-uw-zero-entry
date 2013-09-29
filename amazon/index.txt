@@ -28,9 +28,9 @@ https:// + YOUR MACHINE NAME, and then entering 'beacon' as the password.
 Amazon Web Services reference material
 --------------------------------------
 
-`Instance types <http://aws.amazon.com/ec2/instance-types/>`__
+* `Instance types <http://aws.amazon.com/ec2/instance-types/>`__
 
-`Instance costs <http://aws.amazon.com/ec2/pricing/>`__
+* `Instance costs <http://aws.amazon.com/ec2/pricing/>`__
 
 .. Survey for course assessment
 .. ----------------------------
