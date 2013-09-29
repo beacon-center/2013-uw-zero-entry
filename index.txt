@@ -23,9 +23,10 @@ Saturday 9/28    * 12:30: Getting started: logging in
 		 * 2:30pm: **break**
 		 * 3pm: :doc:`shell`
 		 * 3:45pm: `pipelines and automation <_static/lecture-pipelines.pptx.pdf>`__ (lecture)
-		 * 4:15pm: :doc:`ipython-notebook`
 		 * 5pm: **end**
-Sunday 9/29      * 12:30pm: :doc:`monte-carlo`
+Sunday 9/29      
+		 * 12:30pm: :doc:`ipython-notebook`
+		 * 1:15pm: :doc:`monte-carlo`
 	  	 * 2:30pm: **break**
 	  	 * 3pm: `Presentation on background, bioinformatics, etc. <_static/cse-801-lecture1-welcome.pptx.pdf>`__
 		 * 5pm: **end**.  Also see :doc:`more-resources`

@@ -1,11 +1,12 @@
 Using the IPython Notebook for graphing and data processing
 ===========================================================
 
-Go find `your machine name <https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidHhxaTlreUlTeVRJVVZ2LUpDMmdOTlE#gid=0>`__, and then go to::
+Connect to your machine with https: that is, take your machine name from the
+following google doc page,
 
-   https://<machine-name>
+   https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidEVtNURjLU9fSHExbzhIdGhIMl9uc0E#gid=0
 
-You'll need to disable your security settings potentially (different for every browser... sorry).
+and put ``https://`` plus that machine name in your browser URL bar (3rd column.)
 
 Then enter the password 'beacon' and you should be in!
 

@@ -4,8 +4,8 @@ Monte Carlo simulations
 Connect to your machine with https: that is, take your machine name from the
 following google doc page,
 
-   https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidHhxaTlreUlTeVRJVVZ2LUpDMmdOTlE#gid=0
+   https://docs.google.com/spreadsheet/ccc?key=0ArcOEBWnXSBidEVtNURjLU9fSHExbzhIdGhIMl9uc0E#gid=0
 
-and put ``https://`` plus that machine name in your browser URL bar.
+and put ``https://`` plus that machine name in your browser URL bar (3rd column.)
 
 (The IPython notebook password is 'beacon'.)
