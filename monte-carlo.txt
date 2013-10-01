@@ -9,3 +9,7 @@ following google doc page,
 and put ``https://`` plus that machine name in your browser URL bar (3rd column.)
 
 (The IPython notebook password is 'beacon'.)
+
+We will be looking at 'coin-flips.ipynb' and 'monty-hall.ipynb'.  You can see
+static versions of them `here <http://nbviewer.ipython.org/urls/raw.github.com/beacon-center/2013-uw-zero-entry/rendered/coin-flips.ipynb>`__ and `here <http://nbviewer.ipython.org/urls/raw.github.com/beacon-center/2013-uw-zero-entry/rendered/monty-hall.ipynb>`__.
+

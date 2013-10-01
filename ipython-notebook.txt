@@ -10,4 +10,4 @@ and put ``https://`` plus that machine name in your browser URL bar (3rd column.
 
 Then enter the password 'beacon' and you should be in!
 
-We're going to start with 'graph-blast-bitscore'.
+We're going to start with 'graph-blast-bitscore'. You can see a static version of this notebook `here <http://nbviewer.ipython.org/urls/raw.github.com/beacon-center/2013-uw-zero-entry/rendered/graph-blast-bitscore.ipynb>`__.

@@ -29,6 +29,7 @@ Sunday 9/29
 		 * 1:15pm: :doc:`monte-carlo`
 	  	 * 2:30pm: **break**
 	  	 * 3pm: `Presentation on background, bioinformatics, etc. <_static/cse-801-lecture1-welcome.pptx.pdf>`__
+		 * 4:30pm: `kmer-abundance.ipynb <http://nbviewer.ipython.org/urls/raw.github.com/beacon-center/2013-uw-zero-entry/rendered/kmer-abundance.ipynb>`__
 		 * 5pm: **end**.  Also see :doc:`more-resources`
 ===============  =============================================================
 
